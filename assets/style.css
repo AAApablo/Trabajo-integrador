@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+#conf{
+  font-size: 1.5rem;
+  color: white;
+  display: inline-block;
+  margin-right: auto;
+  margin-top: 1rem;
+  
+
+}
+li,a,button {
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-top: 1rem ;
+}
+header {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  padding: 0px, 10%, 0, ;
+  background-color: #343A41;
+  
+  
+}
+.logo{
+  width: 150px;
+  height: 75px;
+  cursor:pointer;
+  margin-left: 5% ;
+ 
+
+
+}
+.nav__links{
+  list-style: none;
+  margin-left: auto;
+  
+}
+.nav__links li {
+  display: inline-block; /* lista vertical --> horizontal*/
+  padding: 0px 0.75rem;
+  color: white;
+}
+
+.nav__links li a {
+  transition: all   0.3s ease;
+  color:rgba(255, 255, 255, 0.637);
+  
+}
+.nav__links li a:hover{
+  color:white;
+}
+
+#tickets{
+  border: none;
+  color: green;
+  cursor: pointer;
+  
+  
+}
+#tickets:hover{
+  border: none;
+  color: rgb(21, 255, 0);
+  cursor: pointer;
+  
+  
+}
+
+.card-group {
+   margin: 0rem 15rem; 
+}
+
+.card {
+  margin: 1rem;
+}
+.img-fluid{
+    width: 100%;
+    height: 100%  ;
+}
