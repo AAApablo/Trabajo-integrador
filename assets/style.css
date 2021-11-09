@@ -68,9 +68,9 @@ header {
   
 }
 
-.card-group {
+/* .card-group {
    margin: 0rem 15rem; 
-}
+} */
 
 .card {
   margin: 1rem;
@@ -79,3 +79,7 @@ header {
     width: 100%;
     height: 100%  ;
 }
+/* #footer{
+  position: fixed;
+  bottom: 0px;
+} */
